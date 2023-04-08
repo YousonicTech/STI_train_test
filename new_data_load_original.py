@@ -4,6 +4,7 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 from torch.nn.utils.rnn import pad_sequence
 import random
+from AutomaticWeightedLoss import AutomaticWeightedLoss
 from torchvision.transforms import Normalize
 import numpy as np
 import matplotlib.image as mpimg
